@@ -2,9 +2,12 @@
 The lynguo tools are useful for importing lynguo datasets and to construct networks based
 on the relations of the underlying social networks. For example, Twitter exposes the inherent relations "retweet",
 "follow", "comment" or "like" relations. The lynguo-tools module can be used to import a lynguo file
-and to construct the network, export this as GML, create subgraphs based on filtering or to explore the data interactively.  
+and to construct the network, export this as GML, create subgraphs based on filtering or to explore the data interactively.
+In the current version, only retweet networks are created.
 
 ## Read Lynguo CSV
+The create_dataframe() method ready a CSV file exported from lynguo (no error correction) and creates a network from it. The default
+file can be set in defaults.py
 
 
 ## attach twitter profiles to networks
