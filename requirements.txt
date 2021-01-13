@@ -1,0 +1,6 @@
+pandas~=1.1.4
+networkx~=2.5
+matplotlib~=3.3.2
+python-louvain~=0.14
+dash~=1.17.0
+plotly~=4.12.0
